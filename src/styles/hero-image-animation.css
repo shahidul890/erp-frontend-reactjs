@@ -1,0 +1,22 @@
+@keyframes up-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Apply the animation to the element */
+.hero-animate {
+    animation: up-down 3s infinite;
+}
+
+.img-animate-updown {
+    animation: up-down 3s infinite;
+}

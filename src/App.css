@@ -1,0 +1,8 @@
+:root
+{
+    --boxShadow: 0px 7px 20px #870198;
+}
+
+.btn-purple{
+    background-color: #870198;
+}
